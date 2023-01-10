@@ -6,7 +6,7 @@ import random
 
 #API Telegram'a составляющий архитектуры телеграма, которая
 #взаимойдествует со сторонними приложениями, программами
-TOKEN = "5892851489:AAEl4dHt-ymqP42vG8ORpzazUB8LPCRQdrg"
+TOKEN = "*********************"
 
 bot = Bot(TOKEN) #экземпляр класса бот
 dp = Dispatcher(bot) #бот - экземпляр класса диспатчер
