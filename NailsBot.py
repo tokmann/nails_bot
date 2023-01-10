@@ -4,12 +4,11 @@ from bs4 import BeautifulSoup
 from aiogram import Bot, Dispatcher, executor, types
 import random
 
-#API Telegram'a составляющий архитектуры телеграма, которая
-#взаимойдествует со сторонними приложениями, программами
+
 TOKEN = "*********************"
 
-bot = Bot(TOKEN) #экземпляр класса бот
-dp = Dispatcher(bot) #бот - экземпляр класса диспатчер
+bot = Bot(TOKEN) 
+dp = Dispatcher(bot) 
 
 
 
